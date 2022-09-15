@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tribute Page - Homelander</title>
+	<link rel="stylesheet" type="text/css" href="homelander-styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+<body>
+<!--Nav Bar-->
+	<header>
+		<nav class="navigation">
+			<a href="#home" class="links">Home</a>
+    	<a href="#biography" class="links">Biography</a>
+    	<a href="#powers" class="links">Powers and Abilities</a>
+    	<a href="#info" class="links">More Info</a>
+		</nav>
+		<span class="openbtn" onclick="openNav()">&#9776; </span>
+		<nav id="myNav" class="overlay">	
+			<a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+				<a href="#home" onclick="closeNav()">Home</a>
+    		<a href="#biography" onclick="closeNav()">Biography</a>
+    		<a href="#powers" onclick="closeNav()">Powers</a>
+    		<a href="#info" onclick="closeNav()">More Info</a>
+			</div>	
+		</nav>		
+	</header>
+<!--Main -->
+	<main id="home">
+<!-- Homelander image -->
+		<section class="img-div">
+			<img class="hero-image" src="https://static.wikia.nocookie.net/a8292bfd-dad7-40b4-9740-9bc8ee8acf3c/thumbnail-down/width/1280/height/720" alt="Homelander">
+      <div class="text">
+				<h1 class="title">Homelander</h1>
+				<p class="img-caption">Not the Patriot you need, but the one you deserve</p>
+			</div>
+    </section>
+<!-- Biography -->
+		<section id="biography">					
+			<h2>Biography</h2>
+			<div class="tribute-info">
+				<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F09%2F16%2Fthe-boys.jpg" alt="Homelander image">
+				<p>The Homelander is a patriotic superhero who leads the superhero team, The Seven, and the most powerful superhuman created by Vought-American. The company's cover story for the Homelander is that he is an alien who landed in the United States as an infant, much like Superman. In reality, he was grown in a secret laboratory... <a id="tribute-img" href="https://en.wikipedia.org/wiki/Homelander" title="Homelander Biography" target="_blank">More about Homelander</a></p>
+			</div>
+		</section>
+<!-- Powers -->
+		<section id="powers">
+			<h2>Powers and abilities</h2>
+			<div class="abilities">				
+				<div class="abilities-left">
+					<div class="gif">					
+						<img src="https://media4.giphy.com/media/eIUpSyzwGp0YhAMTKr/giphy.gif?cid=ecf05e47krfnqkwv6e2m6pmwykwxfsbgwex7mduayy54kzj7&rid=giphy.gif&ct=g" alt="Flight" >
+						<ul>
+							Flight
+						</ul>
+					</div>
+					
+					
+				
+					<div class="gif">					
+						<img src="https://i.pinimg.com/originals/83/0c/7e/830c7e19d6020259083b388237042807.gif" alt="Durability" >
+						<ul>
+							Superhuman Durability
+						</ul>
+					</div>
+				</div>
+				<div class="abilities-right">
+					
+					<<div class="gif">					
+						<img src="https://www.icegif.com/wp-content/uploads/2022/06/icegif-673.gif" alt="Lasers" >
+						<ul>
+							Laser Beams
+						</ul>
+					</div>
+
+					<div class="gif">
+						<img src="https://media.giphy.com/media/k80ZtaCWdgOQtxhKOa/giphy.gif" alt="Strength">
+						<ul>
+							Superhuman Strength
+						</ul>
+					</div>
+					
+					
+				</div>				
+			</div>
+		</section>
+
+<!-- External Info -->
+		<section id="info">
+			<h2>More information</h2>
+			<div class="content-logos">
+				<div class="logo">
+					<a id="tribute-link" href="https://en.wikipedia.org/wiki/Homelander" title="Homelander Biography" target="_blank"><img src="https://img.icons8.com/windows/40/000000/wikipedia.png" alt="wikipedia logo"></a>
+				</div>
+				<div class="logo">
+					<a href="https://www.instagram.com/toni.starr/" title="Homelander Instagram" target="_blank"><img src="https://img.icons8.com/nolan/40/000000/instagram-new.png" alt="instagram logo"></a>
+				</div>
+				<div class="logo">
+					<a href="https://www.imdb.com/name/nm1102278/" title="Homelander IMDb" target="_blank"><img src="https://img.icons8.com/color/40/000000/imdb.png" alt="imdb logo"></a>
+				</div>
+			</div>
+		</section>
+	</main>
+<!-- Footer  -->	
+	<footer>
+		<p>&copy; 2022 Antony Rahman &bull; <a href="https://github.com/Xinadu/" target="_blank">Portfolio</a></p>
+	</footer>
+
+	<script>
+		function openNav() {
+		  document.getElementById("myNav").style.width = "100%";
+		}
+		
+		function closeNav() {
+		  document.getElementById("myNav").style.width = "0%";
+		}
+
+	</script>
+
+</body>
+</html>
