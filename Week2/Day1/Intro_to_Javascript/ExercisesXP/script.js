@@ -130,7 +130,7 @@ console.log(conversion)
 // console.log(3 + 4 + '5');
 
 
-let c;
+    let c;
     let a = 34;
     let b = 21;
 
@@ -305,3 +305,4 @@ false - true
     "Bob" - "bill"
 // Prediction:NaN
 // Actual:NaN
+
