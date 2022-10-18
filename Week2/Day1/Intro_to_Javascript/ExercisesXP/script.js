@@ -58,11 +58,11 @@ console.log(SeriesSentence);
 // Finally, console.log the myWatchedSeries array, to see all the modifications you’ve made.
 
 myWatchedSeries[2] = "friends";
-console.log(myWatchedSeries)
+
 myWatchedSeries.push("walking dead");
-console.log(myWatchedSeries)
+
 myWatchedSeries.unshift("Edgerunners"); 
-console.log(myWatchedSeries);
+
 
 
 // let array1 = myWatchedSeries.splice(0,1);
@@ -70,7 +70,7 @@ console.log(myWatchedSeries);
 // myWatchedSeries = array1.concat(array2);
 
 myWatchedSeries.splice(1,2);
-console.log('my=>',myWatchedSeries);
+
 
 console.log(myWatchedSeries[1][2]);
 console.log(myWatchedSeries)
