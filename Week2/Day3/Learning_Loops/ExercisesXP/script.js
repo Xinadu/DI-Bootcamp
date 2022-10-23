@@ -153,18 +153,18 @@ else {
 // Using a for in loop, console.log the keys of the object.
 // Using a for in loop, console.log the values of the object.
 
-const family= {
+const family = {
     mother: " Tanya",
     father: " Lutfar",
     son: " Anton"
  };
 
 
-let key = family.property;
-for (let x in family.property){
-   key += family.property[x];
-}
-console.log(key);
+ let key = family.property;
+ for (let x in family.property){
+    key += family.property[x];
+ }
+ console.log(key);
 
 
 let object = "";
