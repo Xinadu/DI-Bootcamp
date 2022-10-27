@@ -1,5 +1,3 @@
-// //div
-
 // const firstDiv = document.body.children[0]
 // const divOne = document.body.firstElementChild;
 // console.log(divOne);
@@ -70,3 +68,33 @@
 // const uList = div1.firstElementChild;
 
 // uList.appendChild(createdlist);
+
+
+const allBooks=[
+    {title: 'Chainsaw Man',
+    author: 'Tatsuki Fujimoto',
+    image: new URL('https://static.wikia.nocookie.net/chainsaw-man/images/0/0f/Volume_01.png/revision/latest?cb=20190226192508'),
+    alreadyRead: true
+},
+{
+    title: 'Sphere',
+    author: 'Michael Crichton',
+    image: new URL('https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660273071i/455373._UY1220_SS1220_.jpg'),
+    alreadyRead: true
+}
+];
+
+
+
+const tableBooks=document.createElement('table');
+const divBooks=document.querySelector('div');
+divBooks.appendChild(tableBooks);
+for(book of allBooks){
+    let tr= document.createElement('tr')
+    tableBooks.appendChild(tr);
+    for(book1 in book){
+        let td=document.createElement('td');
+        document.querySelector('tr').appendChild(td);
+        td.innerText= book.author
+    }
+}

@@ -3,9 +3,9 @@ for (let i=0; i<planets.length; i++){
     console.log(`The #${i+1} planet is ${planets[i]}`);
 }
 
-// when I don't need to an index
-for (const chocolate of planets){
-    console.log(`The planet is ${chocolate}`);
+
+for (const bodies of planets){
+    console.log(`The planet is ${bodies}`);
 }
 
 
@@ -23,8 +23,7 @@ function addPlanet () {
 
 addPlanet();
 
-//Add the planets to the page and passing an inline style depending
-// on an array of colors
+
 const planetsTwo = ["Earth", "Neptune", "Jupiter"];
 const colors = ["blue", "red", "yellow"];
 
@@ -40,9 +39,6 @@ function addPlanetTwo () {
 
 addPlanetTwo();
 
-//Add the planets to the page and passing an inline style depending
-// on an array of objects
-// we use the color property
 const planetsThree = [
     {
         name: "Earth",
@@ -69,10 +65,9 @@ function addPlanetThree () {
         divPlanet.style.backgroundColor=item["color"];
         sectionElement.appendChild(divPlanet);
 
-        //create the moons
+
         const numberMoons = item["moons"];
-        // loop depending on the nb on moons, create a div per moon
-        // add a class of moon in each div
+
 
     }
 }
