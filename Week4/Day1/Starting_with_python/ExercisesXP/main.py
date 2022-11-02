@@ -11,7 +11,7 @@
 from distutils.log import info
 
 
-print("  Hello world\n  Hello world\n  Hello world\n  Hello world\n  Hello world\n")
+print("Hello world\n  Hello world\n  Hello world\n  Hello world\n  Hello world\n")
  
  
 # Exercise 2 : Some Math
