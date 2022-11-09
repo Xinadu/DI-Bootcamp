@@ -1,2 +1,2 @@
-# DI-Bootcamp-Stage1
+# DI-Bootcamp
 Developers institute bootcamp
